@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --background-color: #F1DCD0;
+}
+
+body {
+    background-color: var(--background-color);
+    /* color:  */
+    font-family: Al Bayan Bold;
+}
