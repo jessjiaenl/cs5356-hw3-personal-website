@@ -5,11 +5,13 @@
 }
 
 :root {
-    --background-color: #F1DCD0;
+    --background-light: #F1DCD0;
+    --background-dark: #4E4135;
 }
 
 body {
-    background-color: var(--background-color);
+    /* background-color: var(--background-light); */
+    background: linear-gradient(var(--background-light), var(--background-dark));
     /* color:  */
-    font-family: Al Bayan Bold;
+    /* font-family: Al Bayan Bold; */
 }
