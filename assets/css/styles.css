@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Text+Me+One&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +7,18 @@
 }
 
 :root {
-    --background-light: #F1DCD0;
-    --background-dark: #4E4135;
+    --background-light: #d6d3c8;
+    --background-dark: #4e4135;
 }
 
 body {
+    /* background color */
     /* background-color: var(--background-light); */
-    background: linear-gradient(var(--background-light), var(--background-dark));
-    /* color:  */
-    /* font-family: Al Bayan Bold; */
+    background: linear-gradient(to bottom, var(--background-light), var(--background-dark));
+    height: 100vh;
+
+    /* font */
+    font-family: "Text Me One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
