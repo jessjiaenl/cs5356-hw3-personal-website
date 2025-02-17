@@ -13,8 +13,9 @@
 
 body {
     /* background color */
-    background-color: var(--background-light);
     /* background: linear-gradient(to bottom,var(--background-light), var(--background-dark)); */
+    background-color: var(--background-light);
+    color: var(--background-dark);
     height: 100vh;
   
     /* font */
@@ -33,7 +34,7 @@ body {
   
 .image-container {
     width: 80%;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 1 / 2;
     overflow: hidden;
 }
   
