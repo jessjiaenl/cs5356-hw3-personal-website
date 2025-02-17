@@ -23,7 +23,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-  
+
+/* landing page styling */
 .landing {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -42,4 +43,38 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* table styling */
+table {
+    width: 80%;
+    padding: 10vh;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+  
+table caption {
+    font-size: 30px;
+    color: var(--background-dark);
+}
+  
+th {
+    background-color: var(--background-dark);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+  
+td {
+    padding: 10px;
+    text-align: center;
+    color: var(--background-dark);
+    /*   border-bottom: 1px solid var(--background-light); */
+}
+  
+td a {
+    color: var(--background-dark);
 }
