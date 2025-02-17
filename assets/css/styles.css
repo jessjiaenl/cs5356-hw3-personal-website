@@ -30,7 +30,7 @@ body {
     grid-template-columns: 2fr 1fr 2fr;
     justify-items: center;
     align-items: center;
-    margin: 50px 10vw;
+    margin: 5vw 10vw;
 }
   
 .image-container {
